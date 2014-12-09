@@ -17,11 +17,11 @@ public class Email
 		email.setHostName("smtp.gmail.com");
 		email.setSslSmtpPort("465");
 		email.setFrom(meuemail, nome);
-		email.setAuthentication("marcostrumpet99@gmail.com", "M@rcos22");;
+		email.setAuthentication("marcostrumpet99@gmail.com", "senha");;
 		email.addTo("socram_marcos2010@hotmail.com");
 		email.addCc("marcostrumpet99@gmail.com");
 		email.setSubject("E-mail desafio");
-		email.setMsg("Miss„o dada È miss„o comprida! Sendo que usei outra API, a Commons E-mail API. \nSim essa API È do apache.");
+		email.setMsg("Miss√£o dada √© miss√£o comprida! Sendo que usei outra API, a Commons E-mail API. \nSim essa API √© do apache.");
 		email.send();
 		
 	}
